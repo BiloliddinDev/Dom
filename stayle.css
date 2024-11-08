@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: red;
+
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+.bar {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  width: 70%;
+  height: 100vh;
+}
